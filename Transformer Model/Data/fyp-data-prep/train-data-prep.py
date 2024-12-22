@@ -2,7 +2,7 @@
 import pandas as pd
 #from IPython.display import clear_output
 
-df = pd.read_csv("df.csv")
+df = pd.read_csv("df_train.csv")
 #print(df)
 iio = pd.DataFrame(columns=["instruction", "input", "output"])
 
